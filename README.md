@@ -1,5 +1,10 @@
 # py_extension
-toy dir
+
+Build a python extension module. Instructions:
+https://docs.python.org/2/extending/extending.html
+https://docs.python.org/2/extending/building.html
+
+Lengthy docs on functions in Python.h: https://docs.python.org/2/c-api/index.html.
 
 Use python 2.7.
 

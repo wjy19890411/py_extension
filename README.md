@@ -9,6 +9,10 @@ Lengthy docs on functions in Python.h:
 
 https://docs.python.org/2/c-api/index.html.
 
+### c_extensions
+
+Dump ground to play with stuff.
+
 Install extension:
 
 `$ python setup.py install`
@@ -24,3 +28,18 @@ demo.GetString(123)
 ```
 
 If you modify demo.c, install extension again to see change.
+
+### cpp_extensions
+
+Navigate to cpp_extensions/src/, test changes to cppdemo.cc:
+
+```sh
+$ make cppdemo_test
+```
+
+Cleanup cpp_extensions/src/:
+
+```sh
+$ make clean
+```
+
